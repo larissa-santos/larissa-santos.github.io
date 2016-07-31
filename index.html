@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 
 <head>
 
@@ -18,7 +18,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,7 +26,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
@@ -48,23 +46,26 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">Evento</a>
+                    <li class="only-screen-max">
+                        <a href="#">INÍCIO</a>
                     </li>
                     <li>
-                        <a href="#services">Trabalhos</a>
+                        <a href="#about">EVENTO</a>
                     </li>
                     <li>
-                        <a href="#contact">Programação</a>
+                        <a href="#services">TRABALHOS</a>
                     </li>
                     <li>
-                        <a href="#about">Organização</a>
+                        <a href="#contact">PROGRAMAÇÃO</a>
                     </li>
                     <li>
-                        <a href="#services">Comitê Científico</a>
+                        <a href="#about">ORGANIZAÇÃO</a>
                     </li>
                     <li>
-                        <a href="#contact">Inscrições</a>
+                        <a href="#services">COMITÊ CIENTÍFICO</a>
+                    </li>
+                    <li>
+                        <a href="#contact">INSCRIÇÕES</a>
                     </li>
                 </ul>
             </div>
@@ -73,72 +74,119 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>One Page Wonder</h1>
-                <h2>Will Knock Your Socks Off</h2>
+                <h1>EnAComp</h1>
+                <h2>XIII Encontro Anual de Computação</h2>
             </div>
         </div>
     </header>
 
-    <!-- Page Content -->
+    <div class="featurette-divider"></div>
+
     <div class="container">
+        <!-- O evento -->
+        <div class="col-md-5 featurette" id="about">
+            <h3 class="featurette-heading"><span class="glyphicon glyphicon-flag"></span>O EVENTO</h3>
 
-        <hr class="featurette-divider">
-
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <div class="featurette-body border-right">
+                <p class="lead">
+                    O XII Encontro Anual de Computação (EnAComp) é um evento que abrange praticamente todos os tópicos de pesquisa em Ciência da Computação. Como o horizonte de pesquisas em Ciência da Computação é muito amplo, a cada ano o evento tem uma temática especifica.
+                </p>
+                <p class="lead">
+                    O ENACOMP 2015 trará como tema: “Computação: Tecnologia, Educação e Mercado” e contará com as seguintes atividades específicas: <br>
+                    Palestras <br>
+                    Apresentação de Artigos Orais e Pôsteres <br>
+                    Minicursos <br>
+                    Maratona de programação <br>
+                    Campeonato de games <br>
+                    Premiação de melhores artigos
+                </p>
+            </div>
         </div>
-
-        <hr class="featurette-divider">
 
         <!-- Second Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
+        <div class="col-md-7 featurette" id="services">
+            <h3 class="featurette-heading"><span class="glyphicon glyphicon-user"></span>CONHEÇA OS PALESTRANTES DE 2016</h3>
+            <div class="featurette-body">
+                <img class="featurette-image img-160 img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
-        </footer>
-
+        </div>
     </div>
-    <!-- /.container -->
+    
+    <div class="featurette-divider"></div>
+
+    <div class="">
+        <!-- Third Featurette -->
+        <div class="featurette beige" id="contact">            
+            <h2 class="featurette-heading">
+                <span class="glyphicon glyphicon-map-marker"></span>LOCAL: UFG - REGIONAL CATALÃO <br>
+                <span class="text-muted">Av. Dr. Lamartine P. Avelar, 1120 - Setor Universitário</span>
+            </h2>
+            <div id="googleMap"></div>
+        </div>
+    </div>    
+
+    <div class="featurette-divider"></div>
+
+    <div class="container">
+        <!-- O evento -->
+        <div class="col-md-7 featurette" id="about">
+            <h3 class="featurette-heading">PATROCÍNIO</h3>
+
+            <div class="featurette-body border-right"></div>
+        </div>
+
+        <div class="col-md-5 featurette" id="services">
+            <h3 class="featurette-heading">APOIO</h3>
+        </div>
+    </div>
+    
+    <div class="featurette-divider"></div>
+
+    <div class="pre-footer">
+        <div class="container">
+            <div class="col-md-4">
+                <h4>O TEMA DE 2016</h4>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-8"> Se tiver alguma coisa coloca aqui</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- Footer -->
+        <footer class="container">            
+            <div class="col-lg-12">
+                <p>Enacomp 2016, Departamento de Ciência da Computação - UFG Regional Catalão</p>
+            </div>            
+        </footer>
+    </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- jQuery Custom-->
+    <script src="js/global.js"></script>
+
+    <!-- API Google Map-->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(-18.1550805,-47.9310702),
+        zoom:16,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </body>
 
 </html>
