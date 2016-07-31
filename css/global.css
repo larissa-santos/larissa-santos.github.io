@@ -1,3 +1,19 @@
+.logo-enacomp {
+  background-image:url("../image/enacomp x45.png");
+  width: 208px;
+  height: 45px;
+  display: block;
+}
+.container{
+  width:auto;
+}
+
+.navbar-right > .navbar-nav {
+      margin-right: -15px;
+}
+.navbar-logo {
+  padding: 5px;
+}
 .navbar-white {
   background-color: #ffffff;
   border-color: #ffffff;
