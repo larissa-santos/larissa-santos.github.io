@@ -1,6 +1,6 @@
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 85px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     color: #4B4B4D;
 }
 
@@ -86,8 +86,13 @@ body {
 }
 
 .featurette-heading {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
+}
+
+.sub-featurette-heading {
+    font-size: 24px;
+    font-style: italic;
 }
 
 .only-screen-max{
@@ -121,8 +126,12 @@ body {
     }
 
     .featurette-heading {
-        font-size: 35px;
+        font-size: 27px;
     }
+    .sub-featurette-heading {
+        font-size: 22px;
+    }
+
 }
 
 @media(max-width:991px) {
@@ -151,7 +160,10 @@ body {
     }
 
     .featurette-heading {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .sub-featurette-heading {
+        font-size: 21px;
     }
     .border-right {
         border-right: none;
@@ -169,7 +181,10 @@ body {
     }
 
     .featurette-heading {
-        font-size: 25px;
+        font-size: 23px;
+    }
+    .sub-featurette-heading {
+        font-size: 18px;
     }
 }
 
@@ -232,7 +247,7 @@ body {
 }
 
 .navbar-right > .navbar-nav {
-      margin-right: -15px;
+    margin-right: -15px;
 }
 .navbar-logo {
   padding: 5px;
