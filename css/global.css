@@ -36,6 +36,11 @@ body {
     background: rgba(255,255,255,0.9);
 }
 
+.headline h3 {
+    font-size: 43px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
 .featurette-divider {
     margin: 80px 0;
 }
@@ -64,7 +69,8 @@ body {
 
 .footer{
     background-color: #3D3D3D;
-    color: #4B4B4D;
+    /*color: #4B4B4D;*/
+    color: #999999;
 }
 .img-160 {
     width:160px;
@@ -344,3 +350,4 @@ body {
     background-color: transparent;
   }
 }*/
+

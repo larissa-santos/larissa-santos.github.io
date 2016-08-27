@@ -56,7 +56,7 @@
                         <a href="#services">TRABALHOS</a>
                     </li>
                     <li>
-                        <a href="#contact">PROGRAMAÇÃO</a>
+                        <a href="programacao.html">PROGRAMAÇÃO</a>
                     </li>
                     <li>
                         <a href="#about">ORGANIZAÇÃO</a>
@@ -77,8 +77,10 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>EnAComp</h1>
+                <h1>EnAComp 2016</h1>
                 <h2>XIII Encontro Anual de Computação</h2>
+                <h3>28 a 30 de Novembro</h3>
+                <h3>Catalão - GO - Brasil</h3>
             </div>
         </div>
     </header>
@@ -92,16 +94,16 @@
 
             <div class="featurette-body border-right">
                 <p class="lead">
-                    O XII Encontro Anual de Computação (EnAComp) é um evento que abrange praticamente todos os tópicos de pesquisa em Ciência da Computação. Como o horizonte de pesquisas em Ciência da Computação é muito amplo, a cada ano o evento tem uma temática especifica.
+                    O XIII Encontro Anual de Computação (EnAComp) 2016 ocorrerá, na Universidade Federal de Goiás (UFG) – Regional Catalão, entre os dias 28 a 30 de novembro de 2016. O evento traz como tema principal a “Interdisciplinaridade: Ciência, Mercado e Tecnologia”. O objetivo primário deste evento, em sua 13° edição, é despertar o interesse de alunos da computação e de áreas relacionadas pelos temas que têm estado em destaque, a fim de reiterar os alunos e profissionais às recentes pesquisas científicas na área de Ciência da Computação e às necessidades do mercado de trabalho. 
                 </p>
                 <p class="lead">
-                    O ENACOMP 2015 trará como tema: “Computação: Tecnologia, Educação e Mercado” e contará com as seguintes atividades específicas: <br>
-                    Palestras <br>
-                    Apresentação de Artigos Orais e Pôsteres <br>
-                    Minicursos <br>
-                    Maratona de programação <br>
-                    Campeonato de games <br>
-                    Premiação de melhores artigos
+                    O XIII EnAComp contará com palestras e minicursos diversos, abrangendo vários temas de tecnologia e computação, nas suas várias vertentes.<br>
+                    (colocar os temas das palestras e mini-cursos, que estão no cronograma)<br>
+
+                    Ainda têm-se as apresentações de artigos completos e pôsteres, o que permite maior visibilidade dos trabalhos ientíficos que vêm sendo realizados na academia e indústria. A publicação dos Anais será disponibilizada em formato eletrônico, com supervisão editorial da UFG e participação científica de pesquisadores de todo o país. Tal publicação contará com atribuição de números de ISSN e ISBN.
+                </p>
+                <p class="lead">
+                    Pela primeira vez no evento, será realizado um workshop de Ciência da Computação para crianças, cujo propósito é disseminar esta área do conhecimento entre as crianças, como forma de incentivá-las ao estudo da área. Além disso, durante o EnAComp ocorrerá o 6° Campeonato de Jogos Digitais e a 6° Maratona de Programação, visando incentivar as pessoas interessadas em jogos computacionais, assim como, aqueles interessados em desenvolver software a interagir e participar de competições que serão premiadas.
                 </p>
             </div>
         </div>
@@ -150,9 +152,9 @@
             <div class="">
                 <div class="col-md-4">
                     <h4>O TEMA DE 2016</h4>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p>O tema principal é a “Interdisciplinaridade: Ciência, Mercado e Tecnologia”. O objetivo primário deste evento, em sua 13° edição, é despertar o interesse de alunos da computação e de áreas elacionadas pelos temas que têm estado em destaque, a fim de reiterar os alunos e profissionais às recentes pesquisas científicas na área de Ciência da Computação e às necessidades do mercado de trabalho.</p>
                 </div>
-                <div class="col-md-8"> Se tiver alguma coisa coloca aqui</div>
+                <div class="col-md-8"></div>
             </div>
         </div>
     </div>
@@ -175,20 +177,37 @@
     <!-- jQuery Custom-->
     <script src="js/global.js"></script>
 
-    <!-- API Google Map-->
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-
+    
+  </body>
     <script>
+
     function initialize() {
-      var mapProp = {
+        var myLatLng = {lat: -18.1550805, lng: -47.9310702};
+
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+            zoom: 16,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map
+        });
+    }
+
+    /*var mapProp = {
         center:new google.maps.LatLng(-18.1550805,-47.9310702),
         zoom:16,
         mapTypeId:google.maps.MapTypeId.ROADMAP
       };
-      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
-    google.maps.event.addDomListener(window, 'load', initialize);
+    google.maps.event.addDomListener(window, 'load', initialize);*/
+    
     </script>
+
+    <!-- API Google Map-->    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBTwqV150_XR5oprlxcXLjzP2a18YAYUo&signed_in=true&callback=initialize"></script>
 </body>
 
 </html>
