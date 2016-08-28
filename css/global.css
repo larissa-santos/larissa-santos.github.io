@@ -9,6 +9,16 @@ body {
     height: 475px;
 }
 
+#program .tab-content {
+  background-color: #DDDDDD;
+  padding : 5px 15px;
+}
+
+#program .featurette-body {
+    padding: 0px;
+    padding-bottom: 15px;
+}
+
 .list-programacao li {
     margin: 10px 0px;
 }
@@ -18,6 +28,10 @@ body {
     padding: 5px;
     margin-bottom: 2px;
 }
+
+.list-programacao .default{
+    background-color: #B7B7B7;
+}
 .nav-tabs>li>a {
     color:#4B4B4D;
 }
@@ -25,9 +39,8 @@ body {
     color: #24569D;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #24569D;
     cursor: default;
-    background-color: #FFFFFF;
+    background-color: #DDDDDD;
     border: 1px solid #DDDDDD;
     border-bottom-color: transparent;
 }
