@@ -9,6 +9,29 @@ body {
     height: 475px;
 }
 
+.list-programacao li {
+    margin: 10px 0px;
+}
+.list-programacao span{
+    background-color: #757575;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.nav-tabs>li>a {
+    color:#4B4B4D;
+}
+.navbar-nav>li.active>a, .navbar-nav>li.active>a:focus, .navbar-nav>li.active>a:hover {
+    color: #24569D;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #24569D;
+    cursor: default;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-bottom-color: transparent;
+}
+
 .header-image {
     display: block;
     width: 100%;
