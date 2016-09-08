@@ -1,0 +1,114 @@
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>EnAComp 2017</h1>
+                <h2>XIII Encontro Anual de Computação</h2>
+                <h3>24 a 26 de Maio</h3>
+                <h3>Catalão - GO - Brasil</h3>
+            </div>
+        </div>
+    </header>
+
+    <div class="featurette-divider"></div>
+
+    <div class="container">
+        <!-- O evento -->
+        <div class="col-md-6 featurette" id="about">
+            <h3 class="featurette-heading"><span class="glyphicon glyphicon-flag"></span>O EVENTO</h3>
+
+            <div class="featurette-body border-right">
+                <p class="lead">
+                    O XIII Encontro Anual de Computação (EnAComp) 2017 ocorrerá, na Universidade Federal de Goiás (UFG) – Regional Catalão, entre os dias 24 a 26 de maio de 2017. O evento traz como tema principal a “Interdisciplinaridade: Ciência, Mercado e Tecnologia”. O objetivo primário deste evento, em sua 13° edição, é despertar o interesse de alunos da computação e de áreas relacionadas pelos temas que têm estado em destaque, a fim de reiterar os alunos e profissionais às recentes pesquisas científicas na área de Ciência da Computação e às necessidades do mercado de trabalho. 
+                </p>
+                <p class="lead">
+                    O XIII EnAComp contará com palestras e minicursos diversos, abrangendo vários temas de tecnologia e computação, nas suas várias vertentes.<br>
+                    (colocar os temas das palestras e mini-cursos, que estão no cronograma)<br>
+
+                    Ainda têm-se as apresentações de artigos completos e pôsteres, o que permite maior visibilidade dos trabalhos ientíficos que vêm sendo realizados na academia e indústria. A publicação dos Anais será disponibilizada em formato eletrônico, com supervisão editorial da UFG e participação científica de pesquisadores de todo o país. Tal publicação contará com atribuição de números de ISSN e ISBN.
+                </p>
+                <p class="lead">
+                    Pela primeira vez no evento, será realizado um workshop de Ciência da Computação para crianças, cujo propósito é disseminar esta área do conhecimento entre as crianças, como forma de incentivá-las ao estudo da área. Além disso, durante o EnAComp ocorrerá o 6° Campeonato de Jogos Digitais e a 6° Maratona de Programação, visando incentivar as pessoas interessadas em jogos computacionais, assim como, aqueles interessados em desenvolver software a interagir e participar de competições que serão premiadas.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6 featurette" id="services">
+            <h3 class="featurette-heading"><span class="glyphicon glyphicon-user"></span>CONHEÇA OS PALESTRANTES DE 2017</h3>
+            <div class="featurette-body">
+                <img class="featurette-image img-160 img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="featurette-divider"></div>
+
+    <div class="">
+        <!-- localização -->
+        <div class="featurette beige" id="contact">            
+            <h2 class="featurette-heading">
+                <span class="glyphicon glyphicon-map-marker"></span>LOCAL: UFG - REGIONAL CATALÃO <br>
+                <span class="sub-featurette-heading text-muted">Av. Dr. Lamartine P. Avelar, 1120 - Setor Universitário</span>
+            </h2>
+            <div id="googleMap"></div>
+        </div>
+    </div>    
+
+    <div class="featurette-divider"></div>
+
+    <div class="container">
+        <!-- patrocinio e apoio -->
+        <div class="col-md-7 featurette" id="about">
+            <h3 class="featurette-heading">PATROCÍNIO</h3>
+
+            <div class="featurette-body border-right"></div>
+        </div>
+
+        <div class="col-md-5 featurette" id="services">
+            <h3 class="featurette-heading">APOIO</h3>
+        </div>
+    </div>
+    
+    <div class="featurette-divider"></div>
+
+    <div class="pre-footer featurette-body">
+        <div class="container">
+            <div class="">
+                <div class="col-md-4">
+                    <h4>O TEMA DE 2017</h4>
+                    <p>O tema principal é a “Interdisciplinaridade: Ciência, Mercado e Tecnologia”. O objetivo primário deste evento, em sua 13° edição, é despertar o interesse de alunos da computação e de áreas elacionadas pelos temas que têm estado em destaque, a fim de reiterar os alunos e profissionais às recentes pesquisas científicas na área de Ciência da Computação e às necessidades do mercado de trabalho.</p>
+                </div>
+                <div class="col-md-8"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+
+    function initialize() {
+        var myLatLng = {lat: -18.1550805, lng: -47.9310702};
+
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+            zoom: 16,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map
+        });
+    }
+
+    /*var mapProp = {
+        center:new google.maps.LatLng(-18.1550805,-47.9310702),
+        zoom:16,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);*/
+    
+    </script>
+
+    <!-- API Google Map-->    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBTwqV150_XR5oprlxcXLjzP2a18YAYUo&signed_in=true&callback=initialize"></script>

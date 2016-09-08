@@ -1,213 +1,38 @@
 <!DOCTYPE html>
-<html>
-
+<html ng-app="enacomp">
 <head>
 
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
     
     <link rel="icon" href="image/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
     
-    <title>Enacomp</title>
+    <title>XIII Enacomp</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
+    <!-- Bootstrap e CSS Custom-->
+    <link href="css/bootstrap.css" rel="stylesheet">    
     <link href="css/global.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-white navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header navbar-left">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-logo" href="index.html"><span class="logo-enacomp"></span></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right" id="navbar-menu">
-                <ul class="nav navbar-nav">
-                    <li class="only-screen-max">
-                        <a href="index.html">INÍCIO</a>
-                    </li>
-                    <li>
-                        <a href="index.html#about">EVENTO</a>
-                    </li>
-                    <li>
-                        <a href="trabalhos.html">TRABALHOS</a>
-                    </li>
-                    <li>
-                        <a href="programacao.html">PROGRAMAÇÃO</a>
-                    </li>
-                    <li>
-                        <a href="">ORGANIZAÇÃO</a>
-                    </li>
-                    <li>
-                        <a href="">COMITÊ CIENTÍFICO</a>
-                    </li>
-                    <li>
-                        <a href="">INSCRIÇÕES</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <header class="header-image">
-        <div class="headline">
-            <div class="container">
-                <h1>EnAComp 2016</h1>
-                <h2>XIII Encontro Anual de Computação</h2>
-                <h3>28 a 30 de Novembro</h3>
-                <h3>Catalão - GO - Brasil</h3>
-            </div>
-        </div>
-    </header>
-
-    <div class="featurette-divider"></div>
-
-    <div class="container">
-        <!-- O evento -->
-        <div class="col-md-6 featurette" id="about">
-            <h3 class="featurette-heading"><span class="glyphicon glyphicon-flag"></span>O EVENTO</h3>
-
-            <div class="featurette-body border-right">
-                <p class="lead">
-                    O XIII Encontro Anual de Computação (EnAComp) 2016 ocorrerá, na Universidade Federal de Goiás (UFG) – Regional Catalão, entre os dias 28 a 30 de novembro de 2016. O evento traz como tema principal a “Interdisciplinaridade: Ciência, Mercado e Tecnologia”. O objetivo primário deste evento, em sua 13° edição, é despertar o interesse de alunos da computação e de áreas relacionadas pelos temas que têm estado em destaque, a fim de reiterar os alunos e profissionais às recentes pesquisas científicas na área de Ciência da Computação e às necessidades do mercado de trabalho. 
-                </p>
-                <p class="lead">
-                    O XIII EnAComp contará com palestras e minicursos diversos, abrangendo vários temas de tecnologia e computação, nas suas várias vertentes.<br>
-                    (colocar os temas das palestras e mini-cursos, que estão no cronograma)<br>
-
-                    Ainda têm-se as apresentações de artigos completos e pôsteres, o que permite maior visibilidade dos trabalhos ientíficos que vêm sendo realizados na academia e indústria. A publicação dos Anais será disponibilizada em formato eletrônico, com supervisão editorial da UFG e participação científica de pesquisadores de todo o país. Tal publicação contará com atribuição de números de ISSN e ISBN.
-                </p>
-                <p class="lead">
-                    Pela primeira vez no evento, será realizado um workshop de Ciência da Computação para crianças, cujo propósito é disseminar esta área do conhecimento entre as crianças, como forma de incentivá-las ao estudo da área. Além disso, durante o EnAComp ocorrerá o 6° Campeonato de Jogos Digitais e a 6° Maratona de Programação, visando incentivar as pessoas interessadas em jogos computacionais, assim como, aqueles interessados em desenvolver software a interagir e participar de competições que serão premiadas.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-md-6 featurette" id="services">
-            <h3 class="featurette-heading"><span class="glyphicon glyphicon-user"></span>CONHEÇA OS PALESTRANTES DE 2016</h3>
-            <div class="featurette-body">
-                <img class="featurette-image img-160 img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="featurette-divider"></div>
-
-    <div class="">
-        <!-- localização -->
-        <div class="featurette beige" id="contact">            
-            <h2 class="featurette-heading">
-                <span class="glyphicon glyphicon-map-marker"></span>LOCAL: UFG - REGIONAL CATALÃO <br>
-                <span class="sub-featurette-heading text-muted">Av. Dr. Lamartine P. Avelar, 1120 - Setor Universitário</span>
-            </h2>
-            <div id="googleMap"></div>
-        </div>
-    </div>    
-
-    <div class="featurette-divider"></div>
-
-    <div class="container">
-        <!-- patrocinio e apoio -->
-        <div class="col-md-7 featurette" id="about">
-            <h3 class="featurette-heading">PATROCÍNIO</h3>
-
-            <div class="featurette-body border-right"></div>
-        </div>
-
-        <div class="col-md-5 featurette" id="services">
-            <h3 class="featurette-heading">APOIO</h3>
-        </div>
-    </div>
-    
-    <div class="featurette-divider"></div>
-
-    <div class="pre-footer featurette-body">
-        <div class="container">
-            <div class="">
-                <div class="col-md-4">
-                    <h4>O TEMA DE 2016</h4>
-                    <p>O tema principal é a “Interdisciplinaridade: Ciência, Mercado e Tecnologia”. O objetivo primário deste evento, em sua 13° edição, é despertar o interesse de alunos da computação e de áreas elacionadas pelos temas que têm estado em destaque, a fim de reiterar os alunos e profissionais às recentes pesquisas científicas na área de Ciência da Computação e às necessidades do mercado de trabalho.</p>
-                </div>
-                <div class="col-md-8"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer featurette-body">
-        <!-- Footer -->
-        <footer class="container">            
-            <div class="col-lg-12">
-                <p>Enacomp 2016, Departamento de Ciência da Computação - UFG Regional Catalão</p>
-            </div>            
-        </footer>
-    </div>
-
-    <!-- jQuery -->
+		
+    <!-- jQuery, Bootstrap e JS Custom -->
     <script src="js/jquery-3.1.0.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- jQuery Custom-->
     <script src="js/global.js"></script>
-
     
-  </body>
-    <script>
+    <!-- Angular -->
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<!-- configuracoes particulares do angular -->
+	<script src="js/controllers/enacompCtrl.js"></script>
+	<script src="js/config/routeConfig.js"></script>
+</head>
+<body ng-controller="headerCtrl">
 
-    function initialize() {
-        var myLatLng = {lat: -18.1550805, lng: -47.9310702};
+	<div ng-include="'view/header.html'"></div>
 
-        var map = new google.maps.Map(document.getElementById('googleMap'), {
-            zoom: 16,
-            center: myLatLng
-        });
+	<div ng-view></div>
 
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map
-        });
-    }
-
-    /*var mapProp = {
-        center:new google.maps.LatLng(-18.1550805,-47.9310702),
-        zoom:16,
-        mapTypeId:google.maps.MapTypeId.ROADMAP
-      };
-      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);*/
-    
-    </script>
-
-    <!-- API Google Map-->    
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBTwqV150_XR5oprlxcXLjzP2a18YAYUo&signed_in=true&callback=initialize"></script>
+	<div ng-include="'view/footer.html'"></div>
 </body>
-
 </html>
