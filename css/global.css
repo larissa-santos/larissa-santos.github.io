@@ -127,7 +127,8 @@ body {
 }
 
 .featurette-heading {
-    font-size: 30px;
+    color: #505050;
+    /*font-size: 30px;*/
     text-align: center;
 }
 

@@ -11,6 +11,10 @@ angular.module("enacomp").config(function($routeProvider){
 		templateUrl: "view/trabalhos.html"
 	});
 
+	$routeProvider.when("/evento", {
+		templateUrl: "view/evento.html"
+	});
+
 	// $routeProvider.when("/organizacao", {
 	// 	templateUrl: "view/organizacao.html"
 	// });
