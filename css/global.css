@@ -11,7 +11,7 @@ body {
 }
 
 #program .tab-content {
-  background-color: #DDDDDD;
+  background-color: #F7F7F7;
   padding : 5px 15px;
 }
 
@@ -19,19 +19,22 @@ body {
     padding: 0px;
     padding-bottom: 15px;
 }
-
+.table-programacao {
+    padding: 8px 16px;
+    background-color:white;
+}
 .list-programacao li {
     margin: 10px 0px;
 }
 .list-programacao span{
-    background-color: #757575;
+    background-color: #3c6db3;
     color: #FFFFFF;
     padding: 5px;
     margin-bottom: 2px;
 }
 
 .list-programacao .default{
-    background-color: #B7B7B7;
+    background-color: #9fa8b4;
 }
 .nav-tabs>li>a {
     color:#4B4B4D;
@@ -41,8 +44,8 @@ body {
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     cursor: default;
-    background-color: #DDDDDD;
-    border: 1px solid #DDDDDD;
+    background-color: #F7F7F7;
+    border: 1px solid #F7F7F7;
     border-bottom-color: transparent;
 }
 
@@ -79,7 +82,7 @@ body {
     background: rgba(255,255,255,0.9);
 }
 .featurette-divider {
-    margin: 80px 0;
+    margin: 30px 0;
 }
 
 .featurette-heading > span{
@@ -91,7 +94,7 @@ body {
     padding: 15px;
 }
 .border-right {
-    border-right: solid 1px #5C5C5C;
+    border-right: solid 1px #C5C5C5;
     padding-right: 30px;
 }
 
@@ -133,7 +136,7 @@ body {
 }
 
 .sub-featurette-heading {
-    font-size: 24px;
+    font-size: 17px;
     font-style: italic;
 }
 
