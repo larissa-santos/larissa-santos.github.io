@@ -19,9 +19,13 @@ body {
     padding: 0px;
     padding-bottom: 15px;
 }
+.box-text {
+    background-color: #F7F7F7;
+}
 .table-programacao {
     padding: 8px 16px;
     background-color:white;
+    margin:10px 0px;
 }
 .list-programacao li {
     margin: 10px 0px;
@@ -93,9 +97,13 @@ body {
     text-align: justify;
     padding: 15px;
 }
+
 .border-right {
     border-right: solid 1px #C5C5C5;
     padding-right: 30px;
+}
+.col-md-6 > .box-text{
+    padding-top: 1px;
 }
 
 .beige {
