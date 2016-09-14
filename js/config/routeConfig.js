@@ -23,10 +23,14 @@ angular.module("enacomp").config(function($routeProvider){
 		templateUrl: "view/comite.html"
 	});
 
-	// $routeProvider.when("/inscricoes", {
-	// 	templateUrl: "view/inscricoes.html"
-	// });
+	$routeProvider.when("/inscricoes", {
+		templateUrl: "view/inscricoes.html"
+	});
 	
+	$routeProvider.when("/palestrantes", {
+		templateUrl: "view/palestrantes.html"
+	});
+
 	// rota default
 	$routeProvider.otherwise({ redirectTo: "/"});
 });

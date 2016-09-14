@@ -19,6 +19,17 @@ body {
     padding: 0px;
     padding-bottom: 15px;
 }
+
+.comite-text {
+    width: 49%;
+}
+.comite-text.left{
+    margin-right: 5px;
+}
+.comite-text.right{
+   margin-left: 1%;
+}
+
 .box-text {
     background-color: #F7F7F7;
 }
@@ -127,6 +138,11 @@ body {
     height:160px;
 }
 
+.img-130 {
+    width:128px;
+    height:128px;
+    background: url('../image/user.png') no-repeat lightsteelblue;
+}
 .featurette {
     overflow: hidden;
 }
@@ -320,7 +336,11 @@ body {
         font-size: 30px;
     }
 }
-
+@media(max-width: 560px){
+    .comite-text {
+       width: 100%;
+    }
+}
 @media(max-width:375px) {
     .featurette-divider {
         margin: 10px 0;
