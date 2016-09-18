@@ -1,7 +1,11 @@
 angular.module("enacomp",["ngRoute"]);
-angular.module("enacomp").controller("headerCtrl", function($scope){
-	$scope.message = "Olá mundo";
-});
+
+angular.module("enacomp").controller("headerCtrl", ['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll) {
+    $scope.gotoTop = function() {
+		$location.hash('top');
+		$anchorScroll();
+    };
+}]);
 
 angular.module("enacomp").controller("tabsCtrl", ['$scope', function($scope) {
     $scope.tab = 1;
@@ -14,3 +18,14 @@ angular.module("enacomp").controller("tabsCtrl", ['$scope', function($scope) {
       return $scope.tab === tabNum;
     };
 }]);
+
+angular.module("enacomp").controller('contatoCtrl', function($scope) {
+
+    $scope.submitForm = function() {
+        if ($scope.userForm.$valid) {
+        	console.log($scope.user);
+        }
+
+    };
+
+});

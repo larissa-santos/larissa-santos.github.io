@@ -1,0 +1,76 @@
+    <div class="container">
+        <div class="col-md-12 featurette">
+            <h3 class="featurette-heading">ARTIGO PÔSTER</h3>
+        </div>
+    
+        <div class="col-md-12">
+            <div class="col-md-12 featurette box-text">            
+                <h3 class="featurette-heading">Informações para apresentação</h3>
+                <div class="featurette-body">
+                    <p>
+                       Para os trabalhos pôster o autor deve trazer o pôster e afixar no local da apresentação. O autor deve ficar junto ao seu pôster durante toda a seção, para caso alguém queria entender sobre a pesquisa. Após a finalização da seção, o pôster pode ser retirado.
+                    </p>
+                    <p>Tamanho do pôster: A0. </p>
+                    
+                </div>
+            </div>  
+        </div>      
+    </div>
+
+    <div class="featurette-divider"></div>
+
+    <div class="container">
+        <!-- Programacao -->
+        <div id="program" class="col-md-12 featurette" ng-controller="tabsCtrl">
+            <h3 class="featurette-heading">APRESENTAÇÕES</h3>
+            <ul class="nav nav-tabs">
+                <li ng-class="{ active: isSet(1) }"><a data-toggle="tab" ng-click="setTab(1)">Dia 2 <span>(Terça-feira - 25 de Maio)</span></a></li>
+                <li ng-class="{ active: isSet(2) }"><a data-toggle="tab" ng-click="setTab(2)">Dia 3 <span>(Quarta-feira - 26 de Maio)</span></a></li>
+            </ul>
+
+            <div class="featurette-body">
+                <div class="tab-content">  
+                    <div id="menu2" class="tab-pane fade in" ng-class="{ active: isSet(1) }">                        
+                        <div class="table-programacao">
+                            <table class="table table-striped table-hover table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th width="120px">Horário</th>
+                                        <th>Atividade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="list-programacao">
+                                        <td><span>16:00 — 18:00</span></td>
+                                        <td>Apresentação de Artigos – Oral</td>
+                                    </tr>                                     
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="menu3" class="tab-pane fade in" ng-class="{ active: isSet(2) }">                     
+                        <div class="table-programacao">
+                            <table class="table table-striped table-hover table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th width="120px">Horário</th>
+                                        <th>Atividade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="list-programacao">
+                                        <td><span>10:00 — 10:30</span></td>
+                                        <td>Coffee Break e apresentação de pôsteres</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td> <span>10:30 — 12:00</span></td>
+                                        <td>Apresentação de Artigos – Oral</td>
+                                    </tr>                                      
+                                </tbody>
+                            </table>
+                        </div>                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

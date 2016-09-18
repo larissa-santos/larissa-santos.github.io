@@ -9,31 +9,40 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-logo" href="#/"><span class="logo-enacomp"></span></a>
+            <a class="navbar-logo" href="#/" ng-click="gotoTop()"><span class="logo-enacomp"></span></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="navbar-menu">
             <ul class="nav navbar-nav">
                 <li class="only-screen-max">
-                    <a href="#/">INÍCIO</a>
+                    <a href="#/" ng-click="gotoTop()">INÍCIO</a>
                 </li>
                 <li>
-                    <a href="#/evento">EVENTO</a>
+                    <a href="#/evento" ng-click="gotoTop()">EVENTO</a>
                 </li>
-                <li>
-                    <a href="#/trabalhos">TRABALHOS</a>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">TRABALHOS <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/trabalhos" ng-click="gotoTop()">REGRAS</a></li>
+                        <li><a href="#/artigo-poster" ng-click="gotoTop()">ARTIGO PÔSTER</a></li>
+                        <li><a href="#/artigo-oral" ng-click="gotoTop()">ARTIGO ORAL</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#/programacao">PROGRAMAÇÃO</a>
                 </li>
-                <li>
-                    <a href="#/organizacao">ORGANIZAÇÃO</a>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">ORGANIZAÇÃO <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/organizacao" ng-click="gotoTop()">COMISSÃO ORGANIZADORA</a></li>
+                        <li><a href="#/contato" ng-click="gotoTop()">CONTATO</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#/comite">COMITÊ CIENTÍFICO</a>
+                    <a href="#/comite" ng-click="gotoTop()">COMITÊ CIENTÍFICO</a>
                 </li>
                 <li>
-                    <a href="#/inscricoes">INSCRIÇÕES</a>
+                    <a href="#/inscricoes" ng-click="gotoTop()">INSCRIÇÕES</a>
                 </li>
             </ul>
         </div>
