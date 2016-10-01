@@ -1,8 +1,13 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
     margin-top: 85px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Roboto Condensed', sans-serif !important;
     color: #7A7A7A;
+    margin-bottom: 250px;
 }
 
 .m-t-15 {
@@ -71,7 +76,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../image/enacomp2016 - 01.jpg') no-repeat center center scroll;
+    background: url('../image/banner.png') no-repeat left bottom scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -134,6 +139,12 @@ body {
     /*color: #4B4B4D;*/
     color: #999999;
 }
+
+.rodape {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 .img-160 {
     width:160px;
     height:160px;
@@ -173,11 +184,16 @@ body {
 }
 
 @media(min-width: 1060px){
+    body {
+        margin-bottom: 200px;
+    }
+
     .only-screen-max{
         display: block !important;
     }
 }
 @media(max-width:1200px) {
+    
     .headline h1 {
         font-size: 140px;
     }
@@ -343,6 +359,19 @@ body {
        width: 100%;
     }
 }
+
+@media(max-width: 525px){
+    body {
+        margin-bottom: 290px;
+    }
+}
+
+@media(max-width: 453px){
+    body {
+        margin-bottom: 320px;
+    }
+}
+
 @media(max-width:375px) {
     .featurette-divider {
         margin: 10px 0;
@@ -414,4 +443,10 @@ body {
 .navbar-white .navbar-nav > .disabled > a:focus {
   color: #444;
   background-color: transparent;
+}
+
+@media(max-width: 355px){
+    body {
+        margin-bottom: 360px;
+    }
 }
