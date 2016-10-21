@@ -83,6 +83,47 @@ body {
     -o-background-size: cover;
 }
 
+@media(max-width: 570px){
+    .header-image {
+        height: 318px;
+    }
+}
+
+@media(max-width: 422px){
+    .header-image {
+        height: 240px;
+    }
+}
+
+@media(min-width: 641px){
+    .header-image {
+        height: 500px;
+    }
+}
+
+@media(min-width: 841px){
+    .header-image {
+        height: 650px;
+    }
+}
+
+@media(min-width: 1124px){
+    .header-image {
+        height: 710px;
+    }
+}
+
+@media(min-width: 1240px){
+    .header-image {
+        height: 860px;
+    }
+}
+
+@media(min-width: 1600px){
+    .header-image {
+        height: 1000px;
+    }
+}
 .headline {
     padding: 120px 0;
 }

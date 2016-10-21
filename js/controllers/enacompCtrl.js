@@ -32,13 +32,13 @@ angular.module("enacomp").controller("tabsCtrl", ['$scope', function($scope) {
     };
 }]);
 
-angular.module("enacomp").controller('contatoCtrl', function($scope, $http) {
+angular.module("enacomp").controller('contatoCtrl', ['$scope', '$http', function($scope, $http) {
 
     $scope.submitForm = function() {
         if ($scope.userForm.$valid) {
         	console.log($scope.user);
         
-	        $http({
+	        /*$http({
 				method: 'POST',
 				url: 'requisicoes/sendEmail.php',
 				data:  $.param($scope.user),
@@ -52,8 +52,9 @@ angular.module("enacomp").controller('contatoCtrl', function($scope, $http) {
 			    // called asynchronously if an error occurs
 			    // or server returns response with an error status.
 			});
+			*/
 		}
 
     };
 
-});
+}]);
