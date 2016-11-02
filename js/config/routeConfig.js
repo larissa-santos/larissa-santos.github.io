@@ -51,6 +51,10 @@ angular.module("enacomp").config(function($routeProvider){
 		templateUrl: "view/palestrantes.html"
 	});
 
+	$routeProvider.when("/Workshop", {
+		templateUrl: "view/workshopKids.html"
+	});
+
 	// rota default
 	$routeProvider.otherwise({ redirectTo: "/"});
 });
