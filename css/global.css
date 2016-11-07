@@ -76,7 +76,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../image/banner.png') no-repeat left bottom scroll;
+    background: url('../image/banner-min.png') no-repeat left bottom scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -187,15 +187,23 @@ body {
   width: 100%;
 }
 .img-160 {
-    width:160px;
-    height:160px;
-    background: url('../image/user.png') no-repeat center center lightsteelblue;
+    width:155px;
+    height:159px;
+    background: url('../image/user.gif') no-repeat center center white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .img-130 {
-    width:128px;
-    height:128px;
-    background: url('../image/user.png') no-repeat lightsteelblue;
+    width:125px;
+    height:129px;
+    background: url('../image/user.gif') no-repeat center center white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 .featurette {
     overflow: hidden;
@@ -423,7 +431,7 @@ body {
     }
 
     .featurette-image.pull-left {
-        margin-right: 0;
+        
         margin-bottom: 10px;
     }
 
@@ -434,7 +442,7 @@ body {
 }
 
 .logo-enacomp {
-    background-image:url("../image/enacomp x45.png");
+    background-image:url("../image/enacomp x45-min.png");
     width: 208px;
     height: 45px;
     display: block;
