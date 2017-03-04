@@ -74,13 +74,16 @@
 
         var map = new google.maps.Map(document.getElementById('googleMap'), {
             zoom: 16,
-            center: myLatLng
+            center: myLatLng,
+            scrollwheel: false
         });
 
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map
         });
+
+        //map.disableScrollWheelZoom();
     }
 
     /*var mapProp = {

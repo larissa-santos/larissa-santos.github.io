@@ -76,7 +76,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../image/banner-min.png') no-repeat left bottom scroll;
+    background: url('../image/banner-min.jpg') no-repeat left bottom scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -336,6 +336,9 @@ body {
 @media(max-width:767px) {
     .col-md-6 > .box-text {
          margin: 0 -15px; 
+    }
+    .col-md-6 > .null-box-text {
+         margin: 0 0 !important; 
     }
 }
 
