@@ -9,6 +9,65 @@ body {
     color: #7A7A7A;
     margin-bottom: 250px;
 }
+.divs-center {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-logo {
+    float: left;
+    height: 155px;
+    overflow: hidden;
+    padding: 15px;
+}
+.logo-ufg {
+    background-image: url(../image/logos.png);
+    background-position-x: -3px;
+    background-position-y: 180px;
+    width: 80px;
+    height: 136px;
+}
+.logo-dcc{
+    background-image: url(../image/logos.png);
+    background-position-x: -3px;
+    background-position-y: -2px;
+    width: 90px;
+    height: 118px;
+}
+.logo-sbc{
+    background-image: url(../image/logos.png);
+    background-position-x: -127px;
+    background-position-y: 301px;
+    width: 96px;
+    height: 133px;
+}
+.logo-fapeg{
+    background-image: url(../image/logos.png);
+    background-position-x: 337px;
+    background-position-y: 125px;
+    width: 232px;
+    height: 121px;
+    margin-top: 7px;
+}
+.logo-fp{
+    background-image: url(../image/logos.png);
+    background-position-x: 336px;
+    background-position-y: -9px;
+    width: 315px;
+    height: 72px;
+    margin-top: 25px;
+}
+.logo-ifg{
+    background-image: url(../image/logos.png);
+    background-position-x: 335px;
+    background-position-y: -92px;
+    width: 232px;
+    height: 80px;
+    margin-top: 20px;
+}
 
 .m-t-15 {
     margin-top: 15px;
