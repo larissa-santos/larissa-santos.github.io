@@ -25,30 +25,30 @@ body {
 }
 .logo-ufg {
     background-image: url(../image/logos.png);
-    background-position-x: -3px;
-    background-position-y: 180px;
+    background-position-x: 0px;
+    background-position-y: 265px;
     width: 80px;
     height: 136px;
 }
 .logo-dcc{
     background-image: url(../image/logos.png);
-    background-position-x: -3px;
-    background-position-y: -2px;
-    width: 90px;
-    height: 118px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    width: 92px;
+    height: 119px;
 }
 .logo-sbc{
     background-image: url(../image/logos.png);
-    background-position-x: -127px;
-    background-position-y: 301px;
+    background-position-x: 470px;
+    background-position-y: 386px;
     width: 96px;
-    height: 133px;
+    height: 135px;
 }
 .logo-fapeg{
     background-image: url(../image/logos.png);
-    background-position-x: 337px;
-    background-position-y: 125px;
-    width: 232px;
+    background-position-x: 347px;
+    background-position-y: 210px;
+    width: 233px;
     height: 121px;
     margin-top: 7px;
 }
@@ -62,13 +62,28 @@ body {
 }
 .logo-ifg{
     background-image: url(../image/logos.png);
-    background-position-x: 335px;
-    background-position-y: -92px;
+    background-position-x: 345px;
+    background-position-y: -89px;
     width: 232px;
-    height: 80px;
+    height: 84px;
     margin-top: 20px;
 }
-
+.logo-fretebras{
+    background-image: url(../image/logos.png);
+    background-position-x: 349px;
+    background-position-y: 85px;
+    width: 346px;
+    height: 83px;
+    margin-top: 20px;
+}
+.logo-tekinformatica{
+    background-image: url(../image/logos.png);
+    background-position-x: 496px;
+    background-position-y: 247px;
+    width: 138px;
+    height: 88px;
+    margin-top: 20px;
+}
 .m-t-15 {
     margin-top: 15px;
 }
