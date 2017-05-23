@@ -163,30 +163,13 @@
         <div id="program" class="col-md-12 featurette" ng-controller="tabsCtrl">
             <h3 class="featurette-heading">APRESENTAÇÕES</h3>
             <ul class="nav nav-tabs">
-                <!-- <li ng-class="{ active: isSet(1) }"><a data-toggle="tab" ng-click="setTab(1)">Dia 2 <span>(Quinta-feira - 25 de Maio)</span></a></li> -->
                 <li ng-class="{ active: isSet(1) }"><a data-toggle="tab" ng-click="setTab(1)">Dia 3 <span>(Sexta-feira - 26 de Maio)</span></a></li>
+                <li ng-class="{ active: isSet(2) }"><a data-toggle="tab" ng-click="setTab(2)"><span>Local:</span> Auditório Paulo Perilo</a></li>
+                <li ng-class="{ active: isSet(3) }"><a data-toggle="tab" ng-click="setTab(3)"><span>Local: </span>Auditório Lívia Abrão</a></li>
             </ul>
 
             <div class="featurette-body">
                 <div class="tab-content">  
-                    <!-- <div id="menu2" class="tab-pane fade in" ng-class="{ active: isSet(1) }">                        
-                        <div class="table-programacao">
-                            <table class="table table-striped table-hover table-responsive">
-                                <thead>
-                                    <tr>
-                                        <th width="120px">Horário</th>
-                                        <th>Atividade</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="list-programacao">
-                                        <td><span>16:00 — 18:00</span></td>
-                                        <td>Apresentação de Artigos – Oral</td>
-                                    </tr>                                     
-                                </tbody>
-                            </table>
-                        </div>
-                    </div> -->
                     <div id="menu3" class="tab-pane fade in" ng-class="{ active: isSet(1) }">                     
                         <div class="table-programacao">
                             <table class="table table-striped table-hover table-responsive">
@@ -220,6 +203,106 @@
                                 </tbody>
                             </table>
                         </div>                           
+                    </div>
+                    <div id="menu2" class="tab-pane fade in" ng-class="{ active: isSet(2) }">                        
+                        <div class="table-programacao">
+                            <table class="table table-striped table-hover table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th width="120px">Horário</th>
+                                        <th>Atividade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="list-programacao">
+                                        <td><span>10:30 — 10:50</span></td>
+                                        <td>Produzindo mapa de profundidade esparso com câmera monocular</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>10:50 — 11:10</span></td>
+                                        <td>Algoritmo computacional para monitoramento interno da temperatura em materiais via um sistema de termometria por Ultrassom</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>11:10 — 11:30</span></td>
+                                        <td>Análise dos problemas da Evasão e Retenção: Uma abordagem através de Mineração de Dados Educacionais</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>11:30 — 11:50</span></td>
+                                        <td>Jogos aplicados para pessoas com limitação motora utilizando o dispositivo vestível Myo</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>11:50 — 12:10</span></td>
+                                        <td>Classificação de imagens por meio de extração e seleção de atributos</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>16:00 — 16:20</span></td>
+                                        <td>Desenvolvimento de um aplicativo mobile para a Universidade Federal de Goiás</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>16:20 — 16:40</span></td>
+                                        <td>Detecção de áreas desmatadas utilizando redes neurais artificiais associados a métodos para melhoria da generalização</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>16:40 — 17:10</span></td>
+                                        <td>Análise da Vulnerabilidade XSS em Aplicações Web</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>17:10 — 17:30</span></td>
+                                        <td>Aplicação do algoritmo K-Means na segmentação de cobertura vegetal em imagens de satélite</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>17:30 — 17:50</span></td>
+                                        <td>Utilização de ambiente de alto desempenho para simulação de sistemas de comunicação utilizando linguagem JAVA</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="menu3" class="tab-pane fade in" ng-class="{ active: isSet(3) }">                        
+                        <div class="table-programacao">
+                            <table class="table table-striped table-hover table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th width="120px">Horário</th>
+                                        <th>Atividade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="list-programacao">
+                                        <td><span>10:30 — 10:50</span></td>
+                                        <td>Desenvolvimento de aplicações multiplataforma usando Javascript: Uma análise prática</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>10:50 — 11:10</span></td>
+                                        <td>Regressão linear aplicada na predição de <i>fuzzy time series</i> e auxílio de tendência em conjuntos nebulosos</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>11:10 — 11:30</span></td>
+                                        <td>Desenvolvimento de uma nova ferramenta computacional para auxílio na pesquisa acadêmica avançada</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>11:30 — 11:50</span></td>
+                                        <td>Teste de performance em tecnologias de armazenamento de dados no client-side Web com abordagem ao <i>Offline First</i></td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>16:00 — 16:20</span></td>
+                                        <td>Realidade aumentada como método de apredizagem</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>16:20 — 16:40</span></td>
+                                        <td>Automação residencial aplicada para pessoas com limitação motora</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>16:40 — 17:10</span></td>
+                                        <td>Implementação de algorítmo NSGA-III com operador de estimativa de distribuição</td>
+                                    </tr>
+                                    <tr class="list-programacao">
+                                        <td><span>17:10 — 17:30</span></td>
+                                        <td>Utilização de redes complexas para estudar o comportamento do Zika vírus</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
