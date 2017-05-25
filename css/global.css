@@ -146,6 +146,10 @@ body {
     border-bottom-color: transparent;
 }
 
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
 .header-image {
     display: block;
     width: 100%;
