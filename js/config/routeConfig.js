@@ -66,6 +66,10 @@ angular.module("enacomp").config(function($routeProvider){
 	$routeProvider.when("/minicurso3", {
 		templateUrl: "view/minicurso3.html"
 	});
+
+	$routeProvider.when("/certificados", {
+		templateUrl: "view/certificados.html"
+	});
 	// rota default
 	$routeProvider.otherwise({ redirectTo: "/"});
 });
